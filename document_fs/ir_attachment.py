@@ -10,6 +10,7 @@ _logger = logging.getLogger(__name__)
 class ir_attachment(osv.Model):
     _name = "ir.attachment"
     _inherit = 'ir.attachment'
+	#sdo f sd
 
     def _document_fs_sanitize(self, name):
         if isinstance(name, unicode):
